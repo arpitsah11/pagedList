@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
+
+    <channel>
+        <title>HowToDoInJava</title>
+        <atom:link href="https://howtodoinjava.com/feed/" rel="self" type="application/rss+xml" />
+        <link>https://howtodoinjava.com</link>
+        <description></description>
+        <lastBuildDate>Sat, 28 Nov 2020 18:54:51 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly	</sy:updatePeriod>
+        <sy:updateFrequency>
+            1	</sy:updateFrequency>
+        <generator>https://wordpress.org/?v=5.5.3</generator>
+
+        <image>
+            <url>https://howtodoinjava.com/wp-content/uploads/2015/05/howtodoinjava_logo-55696c1cv1_site_icon-32x32.png</url>
+            <title>HowToDoInJava</title>
+            <link>https://howtodoinjava.com</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        <item>
+            <title>Sealed Classes and Interfaces</title>
+            <link>https://howtodoinjava.com/java15/sealed-classes-interfaces/</link>
+            <comments>https://howtodoinjava.com/java15/sealed-classes-interfaces/#respond</comments>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Sat, 28 Nov 2020 18:54:51 +0000</pubDate>
+            <category><![CDATA[Java 15]]></category>
+            <category><![CDATA[Sealed Class]]></category>
+            <category><![CDATA[Sealed Interface]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=14657</guid>
+
+            <description><![CDATA[<p>In Java, by default, there is no restriction on a class which public interfaces it can impliment. Since Java 15, now a class or interface can be declared sealed class or sealed interface using the modifier sealed. It is a preview feature in Java 15. A sealed class or interface restricts which other classes or [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java15/sealed-classes-interfaces/">Sealed Classes and Interfaces</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+            <wfw:commentRss>https://howtodoinjava.com/java15/sealed-classes-interfaces/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+
+
+        </item>
+        <item>
+            <title>Java Stream findAny()</title>
+            <link>https://howtodoinjava.com/java8/stream-findany/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Tue, 01 Sep 2020 16:21:44 +0000</pubDate>
+            <category><![CDATA[Java 8]]></category>
+            <category><![CDATA[Java Streams]]></category>
+            <category><![CDATA[Stream Method]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13778</guid>
+
+            <description><![CDATA[<p>The findAny() method returns an Optional describing the any element of the given stream if Stream is non-empty, or an empty Optional if the stream is empty. In non-parallel streams, findAny() will return the first element in most of the cases but this behavior is not gauranteed. The Stream.findAny() method has been introduced for performance [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java8/stream-findany/">Java Stream findAny()</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Java Stream findFirst()</title>
+            <link>https://howtodoinjava.com/java8/java-stream-findfirst/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Mon, 31 Aug 2020 10:41:55 +0000</pubDate>
+            <category><![CDATA[Java 8]]></category>
+            <category><![CDATA[Java Streams]]></category>
+            <category><![CDATA[Stream Method]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13777</guid>
+
+            <description><![CDATA[<p>The findFirst() method returns an Optional describing the first element of the given stream if Stream is non-empty, or an empty Optional if the stream is empty. 1. Stream findFirst() Method The findAny() method is a terminal short-circuiting operation. The findFirst() method returns an Optional. The Optional contains the value as first element of the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java8/java-stream-findfirst/">Java Stream findFirst()</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Java FileWriter</title>
+            <link>https://howtodoinjava.com/java/io/java-filewriter/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 21 Aug 2020 10:46:17 +0000</pubDate>
+            <category><![CDATA[Java Input/Output]]></category>
+            <category><![CDATA[FileWriter]]></category>
+            <category><![CDATA[Java]]></category>
+            <category><![CDATA[Java IO]]></category>
+            <category><![CDATA[Write to File]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13732</guid>
+
+            <description><![CDATA[<p>The Java FileWriter class is for writing the text to the character-based files using a default buffer size. It uses character encoding default to the platform, if not provided otherwise. FileWriter is usually wrapped by higher-level Writer types, such as BufferedWriter or PrintWriter. It provides better performance and higher-level, more flexible methods to write data. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java/io/java-filewriter/">Java FileWriter</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Java InputStreamReader</title>
+            <link>https://howtodoinjava.com/java/io/java-inputstreamreader/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 21 Aug 2020 08:25:31 +0000</pubDate>
+            <category><![CDATA[Java Input/Output]]></category>
+            <category><![CDATA[InputStreamReader]]></category>
+            <category><![CDATA[Java]]></category>
+            <category><![CDATA[Java IO]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13730</guid>
+
+            <description><![CDATA[<p>The Java InputStreamReader class is often used to read characters from files (or network connections) where the bytes represents text. In this Java tutorial, we will learn about InputStreamReader class, its creation and initialization, and its methods which help in reading the data from the source. 1. InputStreamReader class It acts as a bridge between [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java/io/java-inputstreamreader/">Java InputStreamReader</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Java StringReader</title>
+            <link>https://howtodoinjava.com/java/io/java-stringreader/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 20 Aug 2020 16:02:53 +0000</pubDate>
+            <category><![CDATA[Java Input/Output]]></category>
+            <category><![CDATA[Java]]></category>
+            <category><![CDATA[Java IO]]></category>
+            <category><![CDATA[StringReader]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13728</guid>
+
+            <description><![CDATA[<p>Java StringReader class represents a character stream whose source is a string. The main use of this class is to pass a String content to a method that accepts a parameter of Reader Type. 1. StringReader class It is meant for reading streams of characters whose source is a string. It is part of java.io [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java/io/java-stringreader/">Java StringReader</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Java FileReader</title>
+            <link>https://howtodoinjava.com/java/io/java-filereader/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 20 Aug 2020 11:06:02 +0000</pubDate>
+            <category><![CDATA[Java Input/Output]]></category>
+            <category><![CDATA[FileReader]]></category>
+            <category><![CDATA[Java]]></category>
+            <category><![CDATA[Java IO]]></category>
+            <category><![CDATA[Read file]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13726</guid>
+
+            <description><![CDATA[<p>Java FileReader class can be used to read data (stream of characters) from files. In this tutorial, we will learn about FileReader class, its constructors, methods and usages with the help of examples. 1. FileReader class It is meant for reading streams of characters. It is part of java.io package. It extends InputStreamReader class. It [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java/io/java-filereader/">Java FileReader</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Installing Java on 64 bit Windows</title>
+            <link>https://howtodoinjava.com/java/basics/install-java-on-64-bit-windows/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 30 Jul 2020 20:03:12 +0000</pubDate>
+            <category><![CDATA[Java Basics]]></category>
+            <category><![CDATA[64 Bit]]></category>
+            <category><![CDATA[Install Java]]></category>
+            <category><![CDATA[Java]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13546</guid>
+
+            <description><![CDATA[<p>Learn to install Java on 64 bit Windows machines in this step-by-step guide. 1. Navigate to the Oracle Java Download Page Navigate to the Java download page for the latest Java release. Click on the link &#8220;JDK Download&#8221;. 2. Download the zip or exe Package Here you have two choices: 2.1. Windows x64 Installer An [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/java/basics/install-java-on-64-bit-windows/">Installing Java on 64 bit Windows</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python Print List</title>
+            <link>https://howtodoinjava.com/python/examples/python-print-list/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Mon, 27 Jul 2020 18:42:04 +0000</pubDate>
+            <category><![CDATA[Python Examples]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13544</guid>
+
+            <description><![CDATA[<p>Learn to print a List in Python using different ways. 1. Printing List Items in Single Line seperated by Comma Python program to print the items of a List in a single line, and the printed list items are separated by a comma in between. The Last character of the List is not a comma, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/examples/python-print-list/">Python Print List</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python print() to File</title>
+            <link>https://howtodoinjava.com/python/examples/python-print-to-file/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 24 Jul 2020 18:29:03 +0000</pubDate>
+            <category><![CDATA[Python Examples]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13529</guid>
+
+            <description><![CDATA[<p>Learn to use Python print() function to redirect print the output of a Python program or Python script to a file. 1. Print to file using file keyword argument The print() function accepts 5 keyword arguments apart of the objects to print on the standard output (by default, the screen). One such keyword argument is [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/examples/python-print-to-file/">Python print() to File</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python print() Without Newline (on Same Line)</title>
+            <link>https://howtodoinjava.com/python/examples/python-print-without-newline/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 24 Jul 2020 16:37:41 +0000</pubDate>
+            <category><![CDATA[Python Examples]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13528</guid>
+
+            <description><![CDATA[<p>By default, Python print() method adds a new line character (\n) at the end of printed output on the screen. That is why all print() statements display the output in a new line on the screen. To print the objects in the same line in Python, we can follow given approaches: 1. Print Without New [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/examples/python-print-without-newline/">Python print() Without Newline (on Same Line)</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python print() Method</title>
+            <link>https://howtodoinjava.com/python/functions/python-print-method/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 24 Jul 2020 12:44:11 +0000</pubDate>
+            <category><![CDATA[Python Reference]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13526</guid>
+
+            <description><![CDATA[<p>Python print() function prints the given string or object to the standard output. The standard output is the screen or to the text stream file. Example: Print an integer to Screen Program output. Syntax of print() Method The complete syntax of the print() function is: Method Parameters The print() method parameters are: objects &#8211; It [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/functions/python-print-method/">Python print() Method</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python input()</title>
+            <link>https://howtodoinjava.com/python/functions/python-input/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Fri, 24 Jul 2020 10:59:02 +0000</pubDate>
+            <category><![CDATA[Python Reference]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13524</guid>
+
+            <description><![CDATA[<p>The Python input() function allows user inputs in the programs. The input() function reads a line from the input, converts into a string and returns it as method return value. The input() function, optionally, allows a prompt String as the method argument that is displayed to user while taking the input. Example: Python input() method [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/functions/python-input/">Python input()</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python pass Statement</title>
+            <link>https://howtodoinjava.com/python/python-flow-control/python-pass/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 23 Jul 2020 13:53:40 +0000</pubDate>
+            <category><![CDATA[Python Flow Control]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13518</guid>
+
+            <description><![CDATA[<p>The Python pass statement is used to execute an empty statement. We can use the pass statement when we do not want to execute any statement at a place in the code, but Python requires us to specify a statement to satisfy the Syntax rules. Python pass statement is different than a Python comment. A [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/python-flow-control/python-pass/">Python pass Statement</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python continue Statement</title>
+            <link>https://howtodoinjava.com/python/python-flow-control/continue-statement/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 23 Jul 2020 09:16:12 +0000</pubDate>
+            <category><![CDATA[Python Flow Control]]></category>
+            <category><![CDATA[Continue keyword]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13514</guid>
+
+            <description><![CDATA[<p>Python continue statement skips the rest of the code inside a loop for the current iteration in a Loop and jumps the program execution to the beginning of the enclosing loop. If the continue statement is inside a nested loop (one loop inside another loop), the continue statement skips only the current iteration of the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/python-flow-control/continue-statement/">Python continue Statement</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python break Statement</title>
+            <link>https://howtodoinjava.com/python/python-flow-control/break-statement/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Thu, 23 Jul 2020 07:43:44 +0000</pubDate>
+            <category><![CDATA[Python Flow Control]]></category>
+            <category><![CDATA[break]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13511</guid>
+
+            <description><![CDATA[<p>Python break statement is used to terminate the a loop which contains the break statement. When a break statement is executed inside a loop, the program execution jumps to immidiately next statement after the loop. If the break statement is inside a nested loop (one loop inside another loop), the break statement will terminate the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/python-flow-control/break-statement/">Python break Statement</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python while Loop</title>
+            <link>https://howtodoinjava.com/python/python-flow-control/while-loop/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Wed, 22 Jul 2020 07:59:23 +0000</pubDate>
+            <category><![CDATA[Python Flow Control]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13509</guid>
+
+            <description><![CDATA[<p>Learn to execute Python statement(s) as long as a condition is True with the help of while loop. 1. The while Loop A while loop executes a given set of statements in loop, till the time a given conditional expression is True. As soon as, the conditional expression becomes False, the while loop ends. We [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/python-flow-control/while-loop/">Python while Loop</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python if&#8230;else</title>
+            <link>https://howtodoinjava.com/python/python-flow-control/python-if-else/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Tue, 21 Jul 2020 13:29:52 +0000</pubDate>
+            <category><![CDATA[Python Flow Control]]></category>
+            <category><![CDATA[if else]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13507</guid>
+
+            <description><![CDATA[<p>Learn to control the flow of a Python program using if, if...else and if...elseif statements. This process is also called decision making. A if statement is executed only if a certain condition is True. The the condition is False, then else statement is executed, if provided in the program. 1. Python if...else Statement Python if&#8230;else [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/python-flow-control/python-if-else/">Python if&#8230;else</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python Set</title>
+            <link>https://howtodoinjava.com/python/datatypes/python-set/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Tue, 21 Jul 2020 10:09:02 +0000</pubDate>
+            <category><![CDATA[Python Datatypes]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13505</guid>
+
+            <description><![CDATA[<p>Python Sets are unordered collections of unique elements. Learn about Set datatype in Python, creating and modifying Sets and other useful Set operations available. 1. What is Set A Set in Python is: an unordered collection of unique hashable objects unindexed collection written with curly brackets or set() constructor Internally, the Set is implemented using [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/datatypes/python-set/">Python Set</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+        <item>
+            <title>Python Dictionary</title>
+            <link>https://howtodoinjava.com/python/datatypes/python-dictionary/</link>
+
+            <dc:creator><![CDATA[Lokesh Gupta]]></dc:creator>
+            <pubDate>Mon, 20 Jul 2020 14:24:20 +0000</pubDate>
+            <category><![CDATA[Python Datatypes]]></category>
+            <category><![CDATA[Python]]></category>
+            <guid isPermaLink="false">http://howtodoinjava.com/?p=13502</guid>
+
+            <description><![CDATA[<p>A Dictionary in Python is a collection data type which is unordered, mutable and indexed. In Python, dictionaries are written with curly brackets { }, and store key-value pairs. Dictionary keys should be the immutable Python object, for example, number, string, or tuple. Keys are case sensitive. Duplicate keys are not allowed in the dictionary. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://howtodoinjava.com/python/datatypes/python-dictionary/">Python Dictionary</a> appeared first on <a rel="nofollow" href="https://howtodoinjava.com">HowToDoInJava</a>.</p>
+]]></description>
+
+
+
+        </item>
+    </channel>
+</rss>
